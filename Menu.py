@@ -2,37 +2,20 @@
 Aluno : Thiago Dorfman Lufchitz
 Curso :ADS - Analise e Desenvolvimento de Software
 '''
+import json
 estudantes = []
 professores = []
 diciplinas = []
 turmas = []
 matriculas = []
 
-
-''' Exemplo de como criar o arquivo e ler ele
-def escrever_lista_em_json(lista, nome_arquivo):
-    with open(nome_arquivo, "w") as arquivo:
-        json.dump(lista, arquivo)
-
-def ler_lista_do_json(nome_arquivo):
-    try:
-        with open(nome_arquivo, "r") as arquivo:
-            lista = json.load(arquivo)
-        return lista
-    except:
-
-        return []
-'''
-def escrever_json(escola,Flag):
+def escrever_json(colegio,Flag):
     if Flag == 1: # n
         try:
-            with open('escola.json', 'w') as escola:
-                print(escola)
+            with open('escola.json', 'w', encoding = 'utf-8') as colegio:
+                json.dump(colegio,escola.json)
         except FileExistsError:
-            print("0101010101,", file=escola)
-            print("Aquivo nao existe")
-        except:
-            print("Deu ruim")
+                print("Aquivo nao existe")
     elif Flag == 2:
         inc()
     elif Flag == 3:
@@ -41,7 +24,6 @@ def escrever_json(escola,Flag):
         inc()
     elif Flag == 5:
         inc()
-    
   
 def menu_pri():     # Menu Principal
     print("\n----- MENU PRINCIPAL -----")
