@@ -4,20 +4,18 @@
 A temática de nosso projeto da disciplina será um Sistema de Gerenciamento Acadêmico, o que envolverá o cadastro de informações relacionadas aos estudantes, disciplinas, professores e turmas. Este sistema será desenvolvido incrementalmente durante a disciplina. Portanto, as funcionalidades descritas a seguir não serão implementadas ainda esta semana, mas sim aos poucos e ao decorrer da
 disciplina conforme as orientações semanais. Dessa forma, veja a seguir um panorama geral das funcionalidades necessárias para o desenvolvimento completo da aplicação, que terá sua entrega final da Semana 08 da disciplina.
 # Funcionalidades obrigatórias
-## 1) O sistema deverá oferecer a possibilidade de cadastro dos seguintes dados:
+### 1) O sistema deverá oferecer a possibilidade de cadastro dos seguintes dados:
     a. estudante;
     b. disciplina;
     c. professor;
     d. turma;
     e. matrícula.
-## 2) Para cada uma das funcionalidades descritas no item 1, deve ser possível realizar as seguintes funcionalidades:
+### 2) Para cada uma das funcionalidades descritas no item 1, deve ser possível realizar as seguintes funcionalidades:
     a. incluir;
     b. listar;
     c. excluir;
     d. alterar.
-## 3) Para não perder dados ao reiniciar o programa, os dados devem ser armazenados em uma lista, e posteriormente em um arquivo JSON, de forma que, ao reiniciar a aplicação, possamos recuperá-los. 
-
-## O projeto semana a semana O projeto se chama “Sistema PUC”, e abaixo você acompanhará o que será aprendido em cada semana, ecomo você deve aplicar este conhecimento em seu projeto.
+### 3) Para não perder dados ao reiniciar o programa, os dados devem ser armazenados em uma lista, e posteriormente em um arquivo JSON, de forma que, ao reiniciar a aplicação, possamos recuperá-los. 
 
 ### Semana 1
 - Temas: Apresentação do Python, ferramentas para desenvolvimento, introdução àprogramação,
