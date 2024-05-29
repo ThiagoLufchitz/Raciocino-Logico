@@ -13,7 +13,7 @@ def escrever_json(colegio,Flag):
     if Flag == 1: # n
         try:
             with open('escola.json', 'w', encoding = 'utf-8') as colegio:
-                json.dump(colegio,escola.json)
+                json.dump(colegio,escola.json) # type: ignore
         except FileExistsError:
                 print("Aquivo nao existe")
     elif Flag == 2:
